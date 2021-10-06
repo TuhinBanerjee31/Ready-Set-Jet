@@ -1,0 +1,32 @@
+:root {
+    --accent-color: #fce1ed;
+    --main-color: #1d1d1d;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  display: block;
+  position: relative;
+  top: -20vh;
+  visibility: hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--main-color);
+    background-color: white;
+    transition: all 1s ease-out;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
