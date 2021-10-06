@@ -15,6 +15,6 @@ TEAM MEMBER PHONE NUMBER	: 7976690042 </br>
 -------------------------------------------------------------------------------
 
 PRODUCT NAME			: Ready Set Jet Beauty Batons  </br>
-WEBSITE LINK			: </br>
+WEBSITE LINK			: https://ready-set-jet.netlify.app/ </br>
 GITHUB LINK			: https://github.com/Nikhita28/Ready-Set-Jet </br>
 PRODUCT DESCRIPTION		: The first interchangeable beauty stick that allows people to customize their beauty routine as they travel through their day. </br>
