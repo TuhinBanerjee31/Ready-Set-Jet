@@ -12,28 +12,35 @@ $(document).ready(function() {
 });
 
 // TESTIMONIALS
-jQuery(document).ready(function($) {
-    "use strict";
-    //  TESTIMONIALS CAROUSEL HOOK
-    $('#customers-testimonials').owlCarousel({
-        loop: true,
-        center: true,
-        items: 3,
-        margin: 0,
-        autoplay: true,
-        dots:true,
-        autoplayTimeout: 8500,
-        smartSpeed: 450,
-        responsive: {
-          0: {
-            items: 1
-          },
-          768: {
-            items: 2
-          },
-          1170: {
-            items: 3
-          }
+(function () {
+  "use strict";
+
+  var carousels = function () {
+    $(".owl-carousel1").owlCarousel({
+      loop: true,
+      center: true,
+      margin: 0,
+      responsiveClass: true,
+      nav: false,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        680: {
+          items: 2,
+          nav: false,
+          loop: false
+        },
+        1000: {
+          items: 3,
+          nav: true
         }
+      }
     });
-});
+  };
+
+  (function ($) {
+    carousels();
+  })(jQuery);
+})();
